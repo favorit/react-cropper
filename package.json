@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./",
-    "build": " babel src/react-cropper.js --out-file dist/react-cropper.js",
+    "build": "babel src --out-dir dist",
     "prepublish": "npm run build",
     "prebuild": "npm run lint",
     "build-example": "npm run build && webpack example/index.js --config example/webpack.config.js --output-path example/assets"
