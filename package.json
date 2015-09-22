@@ -28,10 +28,10 @@
     "url": "https://github.com/roadmanfong/react-cropper.git"
   },
   "dependencies": {
-    "cropper": "^0.11.1"
+    "cropper": "1.0.0-rc.1"
   },
   "peerDependencies": {
-    "react": ">= 0.12.0 || =0.14.0-alpha3",
+    "react": ">= 0.12.0 || ^0.14.0-alpha",
     "jquery": "^1.11.3 || ^2.1.4"
   },
   "devDependencies": {
