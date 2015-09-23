@@ -12,6 +12,8 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactDom = require('react-dom');
+
 var _jquery = require('jquery');
 
 var _jquery2 = _interopRequireDefault(_jquery);
@@ -79,7 +81,7 @@ var Cropper = _react2['default'].createClass({
         options[prop] = this.props[prop];
       }
     }
-    this.$img = (0, _jquery2['default'])(_react2['default'].findDOMNode(this.refs.img));
+    this.$img = (0, _jquery2['default'])((0, _reactDom.findDOMNode)(this.refs.img));
     this.$img.cropper(options);
   },
 
