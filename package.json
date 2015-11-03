@@ -1,6 +1,6 @@
 {
   "name": "react-cropper",
-  "version": "0.4.0",
+  "version": "0.5.1",
   "description": "Cropper as React components",
   "main": "dist/react-cropper.js",
   "scripts": {
@@ -45,6 +45,8 @@
     "eslint-plugin-babel": "^2.1.1",
     "eslint-plugin-react": "^3.3.2",
     "extract-text-webpack-plugin": "^0.8.2",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
     "style-loader": "^0.12.3",
     "webpack": "^1.12.1"
   }

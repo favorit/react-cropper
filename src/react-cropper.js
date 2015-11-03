@@ -62,7 +62,7 @@ const Cropper = React.createClass({
         options[prop] = this.props[prop];
       }
     }
-    this.$img = $(findDOMNode(this.refs.img));
+    this.$img = $(this.refs.img);
     this.$img.cropper(options);
   },
 
@@ -116,8 +116,8 @@ const Cropper = React.createClass({
     return this.$img.cropper('replace', url);
   },
 
-  getData(){
-    return this.$img.cropper('getData');
+  getData(rounded){
+    return this.$img.cropper('getData', rounded);
   },
 
   getContainerData(){
