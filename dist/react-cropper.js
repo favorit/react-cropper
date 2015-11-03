@@ -81,7 +81,7 @@ var Cropper = _react2['default'].createClass({
         options[prop] = this.props[prop];
       }
     }
-    this.$img = (0, _jquery2['default'])((0, _reactDom.findDOMNode)(this.refs.img));
+    this.$img = (0, _jquery2['default'])(this.refs.img);
     this.$img.cropper(options);
   },
 
@@ -135,8 +135,8 @@ var Cropper = _react2['default'].createClass({
     return this.$img.cropper('replace', url);
   },
 
-  getData: function getData() {
-    return this.$img.cropper('getData');
+  getData: function getData(rounded) {
+    return this.$img.cropper('getData', rounded);
   },
 
   getContainerData: function getContainerData() {
