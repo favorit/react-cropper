@@ -15,7 +15,7 @@
     "no-underscore-dangle": 0,
     "comma-dangle": 0,
     "strict": 0,
-    "react/jsx-quotes": 1,
+    "jsx-quotes": 1,
     "react/jsx-no-undef": 1,
     "react/jsx-uses-react": 1,
     "react/jsx-uses-vars": 1,
