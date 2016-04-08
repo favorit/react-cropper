@@ -1,6 +1,5 @@
 import React, { PropTypes } from 'react'
 import { findDOMNode } from 'react-dom'
-//import $ from 'jquery'
 import CropperJS from 'cropperjs'
 import 'cropperjs/dist/cropper.css'
 

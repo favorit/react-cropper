@@ -22,8 +22,6 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = require('react-dom');
 
-//import $ from 'jquery'
-
 var _cropperjs = require('cropperjs');
 
 var _cropperjs2 = _interopRequireDefault(_cropperjs);
