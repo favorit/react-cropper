@@ -1,6 +1,6 @@
 {
   "name": "react-cropper",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Cropper as React components",
   "main": "dist/react-cropper.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "url": "https://github.com/roadmanfong/react-cropper.git"
   },
   "dependencies": {
-    "cropperjs": "0.6.0"
+    "cropperjs": "0.7.0"
   },
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0-0"
